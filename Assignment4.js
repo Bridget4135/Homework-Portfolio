@@ -1,46 +1,45 @@
-//we need an input element, id, value
+$( document ).ready(function() {
 
-//we need a button 
+	$(".readmore a").click(expandMore);
 
-// on button click, run a function to change the background
-//on the input
+	function expandMore(event){
+		event.preventDefault();
 
-function changeBackground(event) {
+		$("#show-this-on-click").slideDown();
 
-	//console.log(event);
-	event.preventDefault();
+		$(".readmore").hide();
 
-	// define functiuon that runs when button clicked
+		$(".readless").show();
+	}
 
-		//get the city name input from the input element
+});
 
-	var cityInput= $("#city-type").val();
+$( document ).ready(function() {
 
-	console.log(cityInput);
+	$(".readless a").click(showLess);
 
-		//San Fran
+	function showLess(event){
+		event.preventDefault();
 
-		//if cityInput is SF, San Francisco, or Bay Area
+		$("#show-this-on-click").slideUp();
 
+		$(".readless").hide();
 
-	if (cityInput == "New York" || cityInput =="New York City" || cityInput == "NYC") {
-		$("body").attr("class","NYC");
-	} 
-	else if (cityInput == "San Francisco" || cityInput =="SF" || cityInput == "Bay Area") {
-		$("body").attr("class","sf");
+		$(".readmore").show();
+	}
+
+});
+
+$( document ).ready(function() {
+
+	$(".learnmore").click(expandMore);
+
+	function expandMore(event){
+		event.preventDefault();
 		
-	}
-	else if (cityInput == "Los Angeles" || cityInput =="LA" || cityInput == "LAX") {
-		$("body").attr("class","la");	
-	 
-	}
-	else if (cityInput == "Austin" || cityInput =="ATX") {
-		$("body").attr("class","austin");
+		$("#learnmoretext").slideDown();
 
-	}
-	else if (cityInput == "Sydney" || cityInput =="SYD") {
-		$("body").attr("class","sydney");
+		$(".learnmore").hide();
 	}
 
-}
-$("#submit-btn").click(changeBackground);
+});
