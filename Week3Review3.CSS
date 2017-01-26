@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(220,220,220);
+}
+
+.box{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 150px;
+	width: 100%;
+}
+.container{
+	width: 800px;
+	margin: auto;
+}
+header{
+	background-color: red;
+}
+#sidebar{
+	background-color: yellow;
+	float: left;
+	width: 25%;
+	height: 400px;
+}
+#main{
+	background-color: green;
+	float: right;
+	width: 75%;
+	height: 400px;
+}
+footer{
+	background-color: blue;
+	clear: both;
+}

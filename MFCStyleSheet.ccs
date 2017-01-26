@@ -1,0 +1,25 @@
+body {
+	font-family: Curlz MT;
+	font-size: 32px;
+	border: black
+	background: URL("http://68.media.tumblr.com/tumblr_m7hmi53uRR1qlkh29o1_1280.jpg");
+	} 
+h1 {
+	text-align: center;
+	font-family: Curlz MT;
+}
+
+#Real Estate {
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+footer {
+	color: black;
+	font-size: 16px;
+}

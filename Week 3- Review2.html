@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+	<title>CSS Review</title>
+</head>
+<body>
+	<header>
+		<h1>CSS Review</h1>
+
+		<link rel="stylesheet" type="text/css" href="Week 3-Review2-StyleSheet.CSS">
+
+	</header>
+
+	<section>
+		<p class="underlined" id="main_sentence">Let's add a style sheet.  After we add a style sheet we will modify properties of the stylesheet</p>
+
+		<p>
+			<span class="underlined">Actions to take</span>
+			<ul>
+				<li>link the stylesheet called <q>stylesheet.css</q> in between the <code>head</code> tags
+					<ol>
+						<li>
+							Add line &lt;link rel="stylesheet" type="text/css" href="css/stylesheet.css" /&gt;
+						</li>
+					</ol>
+				</li>
+				<br/>
+				<li>
+				  Reviewing using stylesheet, font properties, and selectors
+				  <ol>
+				  	<li>
+				  		Select all elements in the body with <code>body{}</code> selector. Note - style cascades from body to all elements in the body
+				  	</li>
+				  	<li>
+				  		Inside the curly braces add <code>font-family: Arial, sans-serif;</code>
+				  	</li>
+				  	<li>
+				  		Select main_sentence element using the id selector and make the font size 20px: <code>#main_sentence{ font-size: 18px;}</code>
+				  	</li>
+				  	<li>
+				  		Select underlined class elements using the class selector and add the text-decoration to it <code>.underlined{ text-decoration: underline;}</code>
+				  	</li>
+				  </ol>
+				</li>
+				<br/>
+				<li>
+					Review alignment and padding
+					<ol>
+						<li>
+							Add tag <code>h1{ text-align: center; }</code>
+						</li>
+						<li>
+							Add a border around the section element for more differentation using <code>section{ border: 5px solid black; border-radius: 10px; }</code>
+						</li>
+						<li>
+							Add padding to section element to move the inside of the section away from the border with
+							<code>section{ padding: 30px;}</code>
+						</li>
+					</ol>
+				</li>
+				<br />
+				<li>
+					Background Style
+					<ol>
+						<li>
+							Add background-color to section to give it style
+							using: <code>section{ background-color: rgb(220,182,193) }</code>
+						</li>
+						<li>
+							Add background-image to the header
+							using: <code> background-image: url("images/banner-1763839_340.jpg")</code>
+						</li>
+					</ol>
+				</li>
+			</ul>
+		</p>
+	</section>
+	
+</body>

@@ -1,0 +1,440 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/******************************************
+/* Landing  Page
+/*******************************************/
+
+
+body{
+  background: #ffe6e6;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 70px;
+}
+
+.page1{
+  background: url(blonde.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px; 
+
+}
+
+#logo {
+  padding-left: 170px;
+  padding-top: 30px;
+
+}
+
+.title{
+  text-align: center;
+  color: pink;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: 'gibson-s', sans-serif;
+
+
+}
+
+li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.landinglist {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px;
+  color:  white;
+  padding-top: 15px;
+  
+}
+
+.page2{
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  background-color: white;
+}
+
+.page3{
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1400px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.page4{
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+  background-color: white;
+}
+
+.page5{
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 820px;
+  background-color: white;
+}
+
+.page6 {
+  background: white;
+  height: 160px;
+  clear: both;
+}
+
+.resume {
+  color: pink;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-style: helvetica, arial, sans-serif;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  color: #14141f;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logos{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #e6e6ff;
+  height: 300px;
+}
+
+#facebook{
+  padding-left:4px;
+}
+#linkedin {
+  padding-right: 4px;
+}
+
+.img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding- left: 50px;
+}
+
+.pagetitle {
+  text-align: center;
+  color: pink;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'gibson-s', sans-serif;
+}
+
+.pageresume {
+  color: white;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-style: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+
+#home{
+  padding-right: 5px;
+  color:  #14141f;
+  font-family: 'Work Sans', sans-serif;
+  margin:0;
+}
+/******************************************
+/* Education Page
+/*******************************************/
+
+.educationbody {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 70px;
+  background: #ffe6e6;
+}
+
+.educationpage {
+  background: url(memhill.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+.educationtitle {
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+
+}
+
+/******************************************
+/* Professional Experience Page
+/*******************************************/
+
+.professionalbody {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 70px;
+  background: #ffe6e6;
+}
+
+.professionalpage{
+  background-color: white;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1800px;
+
+}
+
+.professionaltitle {
+   text-align: center;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+  }
+
+/******************************************
+/* Athletic Page
+/*******************************************/
+
+.athleticbody {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 70px;
+  background: #ffe6e6;
+}
+
+.athleticpage{
+  background: url("basketball.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+
+}
+
+.athletictitle {
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/******************************************
+/* Volunteer Page
+/*******************************************/
+
+.volunteerbody {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 70px;
+  background: #ffe6e6;
+}
+
+.volunteerpage{
+  background: url("kid.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+
+}
+
+.volunteertitle {
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+/******************************************
+/* Skills Page
+/*******************************************/
+
+.skillsbody {
+  background: url(skillspic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.skillstitle {
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
+  
+}
+
+/******************************************
+/*  Inquiry Page
+/*******************************************/
+
+
+.inquirybody {
+  background: url(inqback.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+form{
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 200px;
+  height: 400px;
+  width: 200px;
+  padding-top: 20px;
+  border-radius: 10px;
+
+  }
+
+  input[type=text]
+  {
+    border-radius: 6px;
+    width: 500px;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    border-color: #66ffff;;
+  }
+
+  input[type=textarea]
+  {
+    border-radius: 6px;
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    margin-top: 10px;
+    border-color: #66ffff;
+  }
+
+  #formp {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    padding-left: 8px;
+
+  }
+
+#submit {
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  background-color: yellow;
+  border-color: #66ffff;
+
+}
+
+#top{
+  clear: both;
+}
+#voltext{
+  float:left
+}
+
+#volpic{
+  float: right;
+}
+
+#jclark{
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+#shoot{
+  padding-right: 20px;
+}
+
+#getintouch{
+  padding-top: 20px;
+}
+
+.next {
+  padding-top: 50px;
+}
+
+#touch{
+  padding-bottom: 10px;
+
+}

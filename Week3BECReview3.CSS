@@ -1,0 +1,29 @@
+.box {
+    border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 150px;
+	width: 100%;
+}
+header{
+	background-color:red;
+}
+#container {
+	width: 800px;
+	margin: auto;
+}
+#sidebar{
+	background: yellow;
+	float: left;
+	width: 25%;
+
+}
+#main{
+	background: green;
+	float: right;
+	width: 75%;
+
+}
+footer{
+	background: blue;
+	clear: both;
+}

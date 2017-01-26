@@ -1,0 +1,50 @@
+
+
+Verbs: Rock, Paper, Scissors, Win, player 1, player 2, game 1, game 2, game 3
+
+
+Player 1 and player 2---
+
+Play game 1
+
+If rock and scissors, rock win
+If rock and paper, paper win
+If rock and rock, tie
+If scisors and 
+...
+
+
+Play game 2
+
+
+
+total wins
+
+If player 1 win> 1, player 1 wins all
+If player 2 win> 1, player 2 wins all
+If player 1 and player 2 win = 2, play game 3
+
+Play Game 3
+
+
+
+
+
+If  player 1 rock and player 2 scissors, player 1 win 
+
+If player 1 rock and player 2 paper, player 2 win
+
+If player 1  rock and player 2 rock, tie
+
+If player 1 scissors and player 2 rock, pla
+
+
+
+two wins abd player 2 two wins, 3rd game 
+
+
+
+function illuminateYellow() {
+  clearLights();
+  document.getElementById('slowLight').style.backgroundColor = "yellow";
+}

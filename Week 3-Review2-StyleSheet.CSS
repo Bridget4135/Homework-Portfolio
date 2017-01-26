@@ -1,0 +1,26 @@
+body {
+
+	font-family: Arial, sans-serif;
+}
+
+#main_sentence{
+	font-size: 18px;
+}
+.underlined {
+	text-decoration: underline;
+}
+h1 {
+	text-align: center;
+	background-image: url("..//GApractice/banner.jpg");
+
+}
+
+section{
+	border: 5px solid black; 
+	border-radius: 10px; 
+	padding: 30px;
+	background-color: rgb(220,182,193);
+
+}
+
+

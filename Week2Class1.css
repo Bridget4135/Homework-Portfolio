@@ -1,0 +1,60 @@
+h1 { 
+	background-color: red;
+	border: 5px solid black;
+	padding: 20px;
+
+	}
+
+p {
+	background: blue;
+	color: white;
+	padding-left: 500px;
+	border: 2px dotted balck;
+}
+
+code {
+	background-color: white;
+	color: black;
+	padding: 2px;
+	border: thin line black;
+	margin: 5px;
+}
+
+#tp1 {
+
+	height: 100px;
+	width: 400px;
+	border: thin solid black;
+	overflow: auto;
+
+}
+
+h2 {
+	background-color: purple;
+	color: black;
+	padding: 15px;
+
+}
+
+ol { 
+	background-color: pink;
+	color: black;
+	padding: 50px;
+	font-family: Curlz MT;
+	overflow-x: auto;
+	margin: 20 px 40px;
+
+}
+
+li {
+	background-color: yellow;
+	color: black;
+	padding: 15px;
+	font-family: Curlz MT;
+	margin: 25px 50px;
+	width: 700px;
+}
+
+
+
+}

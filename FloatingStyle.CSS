@@ -1,0 +1,33 @@
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  margin: 10px;
+  height: 150px;
+}
+
+aside {
+	background-color: orange;
+	float: right;
+  	width: 30%;
+}
+
+footer {
+	background-color: blue;
+	width: 100%;
+	clear: both;
+}
+header {
+	background-color: purple;
+	float: left;
+	width: 100%;
+}
+
+#main {
+	background-color: green;
+	float: left;
+  	width: 70%
+}
+
+
+
